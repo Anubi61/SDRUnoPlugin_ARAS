@@ -3,7 +3,7 @@
 
 Background.
 
-My radio shack is composed by two pc, the older one is fully dedicated to the use of RSP1A (Sdrplay).
+My radio shack is composed by two pc, the older one is fully dedicated to the use of RSP1A (I'm proud owner of).
 I control that pc by the newer one, via RDP. Although the two pc are on the same network, the dedicated one is connected through a wireless bridge, so I've decided to don't stream audio through the RDP connection but reroute to wireless bluetooth earphones.
 It is not perfect but I eliminated a lot of audio drops.
 
@@ -11,7 +11,7 @@ Since RSP1A has a single antenna input, but my antennas are 3, I have to disconn
 So I "created" this simple project.
 The hardware is based on RasperryPi3b. with a 4 ports relay board controlled by gpio pins.
 On Raspberry a very simple socket server, which accepts remote commands and switch the pins accordingly.
-I put on this repository but I didn't make any makefile. 
+It is on this repository but I didn't make any makefile. 
 You can compile with: gcc -o rfswitch rfswitch.c -lwiringPi -lpthread
 It uses wiringPi library, download/install it first.
 
@@ -35,6 +35,7 @@ But you can find it already compiled somewere else. The version used is nana_v14
 A mention to jcma68 for his plugin SDRUnoPlugin_SatTrack which was the base to understand how to code a plugin. 
 
 BR
+
 
 
 
