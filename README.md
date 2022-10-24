@@ -2,6 +2,7 @@
  AutomaticRemoteAntennaSwitch (on LAN)
 
 Background.
+
 My radio shack is composed by two pc, the older one is fully dedicated to the use of RSP1A (Sdrplay).
 I control that pc by the newer one, via RDP. Although the two pc are on the same network, the dedicated one is connected through a wireless bridge, so I've decided to don't stream audio through the RDP connection but reroute to wireless bluetooth earphones.
 It is not perfect but I eliminated a lot of audio drops.
@@ -29,6 +30,8 @@ RF1 OFF & RF2 ON & RF3 ON  = Bias Tee preamp + home made dual band 144/430 Mhz
 In both cases, the dual band antenna is used for any frequency above 30 Mhz with the exclusion of the range 137-138Mhz
 
 If anyone interested feel free to clone this repository and do whatever you want.
+Pay attention I am unable to load the needed nana library, due to github limits.
+But you can find it already compiled somewere else. The version used is nana_v142_Release_x86.lib
 A mention to jcma68 for his plugin SDRUnoPlugin_SatTrack which was the base to understand how to code a plugin. 
 
 BR
