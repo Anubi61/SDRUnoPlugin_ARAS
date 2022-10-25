@@ -24,8 +24,8 @@ The normal one is one antenna each relay,
 the Preamp one follows this scheme:
 
 RF1 ON = Magloop 0-30Mhz,
-RF1 OFF & RF2 ON & RF3 OFF = Bias Tee preamp + horizontal V dipole for Meteor/NOAA satellites on 137Mhz
-RF1 OFF & RF2 ON & RF3 ON  = Bias Tee preamp + home made dual band 144/430 Mhz 
+RF1 OFF & RF2 ON  = Bias Tee preamp + horizontal V dipole for Meteor/NOAA satellites on 137Mhz
+RF1 OFF & RF2 OFF = Bias Tee preamp + home made dual band 144/430 Mhz 
 
 In both cases, the dual band antenna is used for any frequency above 30 Mhz with the exclusion of the range 137-138Mhz
 
